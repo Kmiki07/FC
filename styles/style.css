@@ -1,0 +1,81 @@
+:root {
+    --primary-color: #f5365c;
+    --secondary-color: #27293D;
+    --background-color: #1e1e2f;
+    --text-color: #ffffff;
+    --error-color: #e74c3c;
+}
+
+
+/* Body */
+body {
+    background-color: var(--background-color);
+}
+
+/* Text tags */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+label {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+
+
+/* Calculator */
+.calculator-div {
+    width: 50%;
+    margin-top: 100px;
+    max-width: 600px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.calculator-div h1 {
+    text-align: center;
+}
+
+.calculator-div input {
+    width: 100%;
+}
+
+.calculator-div button {
+    width: 100%;
+}
+
+.calculator-div div.row {
+    margin-top: 10px !important;
+}
+
+/* Inputs */
+input {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+/* Button templates */
+.primary-button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-weight: bold;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+
+/* Misc */
+.error {
+    color: red;
+    font-size: 12px;
+}
